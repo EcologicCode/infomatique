@@ -10,8 +10,9 @@ Language : <select class="Language">
     <option>C++</option>
 </select><br>
 Nombre de packages(Illimité, un package peut faire jusqu'à 99.9 Mo) : <input type="number" id="tentacles" name="Packages" min="1" max="9999999999" placeholder="Nombre de packages de 0 à 99.9 Mo"><br>
-Systèmes compatibles :<br>
+<feldset>
+<lengend>Systèmes compatibles :</lengend><br>
 <input type="checkbox" id="Windows" value="Windows"><label for="Windows">Windows</label><br>
 <input type="checkbox" id="Linux" value="Linux"><label for="Linux">Linux</label><br>
-
+</feldset>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
