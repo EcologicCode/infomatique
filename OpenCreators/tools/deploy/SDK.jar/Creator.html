@@ -81,7 +81,14 @@ Nombre de packages(Illimité, un package peut faire jusqu’à 99.9 Mo) : <input
 <input type="checkbox" id="Windows" value="Windows" /><label for="Windows">Windows</label><br />
 <input type="checkbox" id="Linux" value="Linux" /><label for="Linux">Linux</label><br />
 </fieldset>
+<input type="button" onclick="Generate()" value="Générer le programme d'installation">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+  function Generate() {
+    var name = $("#name").text();
+    alert(name);
+  }
+</script>
       </section>
     </div>
   </body>
