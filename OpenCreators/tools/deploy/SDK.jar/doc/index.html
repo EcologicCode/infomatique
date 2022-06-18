@@ -7,19 +7,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-    <h1>Manuel d'utilisation de SDK.jar par EcologicCode</h1>
-    <p>
-        <a href="index.html#client">Manuel Client</a> - <a href="index.html#dev">Manuel dévloppeur</a>
-        <h2 id="client">Manuel Client</h2>
-        <p>
-            <ul>
-                <li><a href="client.html#intro">1 : Introduction</a></li>
-            </ul>
-        </p>
-        <h2 id="dev">Manuel dévloppeur</h2>
-        <p>
-
-        </p>
-    </p>
+    <div id="Content">Chargement...</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var search_params = new URLSearchParams(new URL(window.location.href));
+        if(search_params.has('doc')) {
+        var doc = search_params.get('doc');
+        console.log(doc);
+        }else {
+            $("#Content").load("index0.htm");
+        }
+    </script>
 </body>
 </html>

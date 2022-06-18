@@ -77,7 +77,7 @@ Language : <select class="Language">
 </select><br />
 Nombre de packages(Illimité, un package peut faire jusqu’à 99.9 Mo & un package c'est un Zip) : <input type="number" id="Packages" name="Packages" min="1" max="9999999999" placeholder="Nombre de packages de 0 à 99.9 Mo" /><br /></p>
 <input type="button" onclick="Generate()" value="Générer le programme d'installation"></div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript">
   var name;
   var Organisation;
@@ -105,7 +105,7 @@ Nombre de packages(Illimité, un package peut faire jusqu’à 99.9 Mo & un pack
       package+=Version+"<br>";
     }
 
-    var rendu = "<a href=\"doc/index.html#dev\">Guide d'installation</a>";
+    var rendu = "<a href=\"doc/index.html#dev\">Guide d'installation</a><br>";
     rendu += "Fichier App.dat :<br><fieldset>"+AppDat+"</fieldset>";
     rendu += "Fichier Version.dat :<fieldset>"+Version+"</fieldset>";
     rendu += "Fichier package.dat :<fieldset>"+package+"</fieldset>";
