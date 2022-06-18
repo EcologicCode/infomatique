@@ -10,7 +10,9 @@
     <div id="Content">Chargement...</div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
-        var search_params = new URLSearchParams(new URL(window.location.href));
+        va str = window.location.href;
+        var url = new URL(str);
+        var search_params = new URLSearchParams(url);
         if(search_params.has('doc')) {
         var doc = search_params.get('doc');
         console.log(doc);
