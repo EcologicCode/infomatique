@@ -1,5 +1,5 @@
 ---
-permalink: /Creator.htm
+permalink: /OpenCreators/tools/deploy/SDK.jar/Creator.htm
 ---
 # Générer un programme d'installation
 ## [Générer un programme d'installation sur internet](Creator.html) - [doc](doc/index.html)
