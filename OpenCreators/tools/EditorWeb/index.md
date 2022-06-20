@@ -9,9 +9,7 @@
         const str = window.location.href;
 
         const words = str.split('#');
-        var replaced = words[1];
-        replaced = replaced.replace("%20", " ");
-        $("#text").val(replaced);
+        $("#text").val(decodeURI(words[1]));
     })
 
     $("#text").change(function(){
