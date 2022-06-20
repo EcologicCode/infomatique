@@ -1,5 +1,5 @@
 <h1>Editeur en ligne</h1>
-<textarea id="text" name="text" rows="80" cols="60"></textarea>
+<textarea id="text" name="text" rows="60" cols="80"></textarea>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript">
