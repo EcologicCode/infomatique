@@ -14,6 +14,7 @@
 
     $("#text").change(function(){
         text = $("#text").val();
+        text.replace(/\n/, "%0A");
         location.href="#"+text;
     });
 </script>
