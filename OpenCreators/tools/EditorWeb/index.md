@@ -5,6 +5,14 @@
 <script type="text/javascript">
     var text = "";
 
+    $(documet).ready(function(){
+        const str = window.location.href;
+
+        const words = str.split('#');
+        str = words[1];
+        $("#text").val(str);
+    })
+
     $("#text").change(function(){
         text = $("#text").val();
         location.href="#"+text;
