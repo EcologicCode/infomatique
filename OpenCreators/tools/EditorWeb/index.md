@@ -6,7 +6,7 @@
     var text = "";
 
     $("#text").change(function(){
-        text = $("textarea.text").val();
+        text = $("#text").val();
         location.href="#"+text;
     });
 </script>
