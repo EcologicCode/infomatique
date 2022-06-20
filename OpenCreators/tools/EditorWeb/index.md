@@ -9,7 +9,9 @@
         const str = window.location.href;
 
         const words = str.split('#');
-        $("#text").val(words[1]);
+        var replaced = words[1];
+        replaced = replaced.replace("%20", " ");
+        $("#text").val(replaced);
     })
 
     $("#text").change(function(){
