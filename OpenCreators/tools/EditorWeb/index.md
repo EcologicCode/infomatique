@@ -5,7 +5,7 @@
 <script type="text/javascript">
     var text = "";
 
-    $(documet).ready(function(){
+    $(document).ready(function(){
         const str = window.location.href;
 
         const words = str.split('#');
