@@ -12,7 +12,7 @@ Merci d'ajouter avec chaque changement de lignes "%0A" pour que l'éditeur sache
 
         const words = str.split('#');
         $("#text").val(decodeURI(words[1]));
-        text = $("#text").val();
+        text = decodeURI(words[1]);
     });
 
     $("#text").change(function(){
